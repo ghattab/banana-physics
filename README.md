@@ -1,7 +1,7 @@
 # Banana Physics
 Banana physics is a set of print-ready A7 cards to learn 14 of the most used physical constants in a fun way!
 
-![](https://raw.githubusercontent.com/ghattab/banana-physics/master/animation.gif)
+<img align="center" src="https://raw.githubusercontent.com/ghattab/banana-physics/master/animation.gif" alt="drawing" width="300"/>
 
 Each card design relies on a humoristic and relatable depiction of a banana in the context of the physical constant.
 The information is presented using redundant visual encoding, emphasis, repetition, and alternate representation of the constant's value.
