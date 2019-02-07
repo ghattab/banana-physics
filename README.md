@@ -15,14 +15,17 @@ For each constant [position on card] (color/symbol):
 * __Exponent__ [top right]: value and sign of exponent as the card number (category)
 
 ### Hexadecimal conversion
-As it is sometimes hard to remember the scientific notation of some constants, the hexadecimal form serves as an alternative to remember the 6 digits number. Moreover, it reduces the amount of digits to alphanumeric characters. An example conversion from hexadecimal to decimal is provided below:
+As it is sometimes hard to remember the scientific notation of some constants, the hexadecimal form serves as an alternative to remember the 6 digits number. As a means for data compression, it reduces the amount of digits to alphanumeric characters. The conversion algorithm and an example conversion from hexadecimal to decimal are provided below:
 ```
-7DE is a hex number
+7DE is a hex number (zero based, 7DE: E location is 0, D location is 1 and the 7 location is 2)
 7DE = (7 * 162) + (13 * 161) + (14 * 160) 
 7DE = (7 * 256) + (13 * 16) + (14 * 1) 
 7DE = 1792 + 208 + 14 
 7DE = 2014 (in decimal number)
 ```
+* Get the decimal equivalent of hex from table
+* Multiply every digit with 16 power of digit location 
+* Sum all the multipliers.
 
 ## Sources
 All reported values are in the International System of Units.
